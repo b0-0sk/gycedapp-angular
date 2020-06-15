@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "gycedapp-angular"
+    }
+  },
+  "defaultProject": "gycedapp-angular",
+  "cli": {
+    "analytics": "7d951869-c3d6-4fe1-ad26-704d2f62b6a8"
+  }
 }
