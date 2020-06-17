@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 //Install express server
 const express = require("express");
 const path = require("path");
@@ -5,7 +7,7 @@ const path = require("path");
 const app = express();
 
 // Serve only the static files form the dist directory
-app.use(express.static(dirname + "/dist/"));
+app.use(express.static(dirname + "/dist/gycedapp-angular/"));
 
 app.get("/*", function(req, res) {
     res.sendFile(path.join(dirname + "/dist/index.html"));
